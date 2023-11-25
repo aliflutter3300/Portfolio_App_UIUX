@@ -21,6 +21,7 @@ class _MyHomeState extends State<MyHome> {
       extendBodyBehindAppBar: true,
       appBar: AppBar(
         leading: PopupMenuButton(
+          color: Colors.amber.shade600,
           icon: Icon(Icons.menu),
           itemBuilder: (context)=>[
             PopupMenuItem(
@@ -40,6 +41,7 @@ class _MyHomeState extends State<MyHome> {
         backgroundColor: Colors.transparent,
       ),
       body: SlidingSheet(
+        color: Colors.amber.shade600,
         elevation: 8,
         cornerRadius: 40,
         snapSpec: const SnapSpec(

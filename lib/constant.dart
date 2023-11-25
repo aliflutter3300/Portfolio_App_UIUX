@@ -20,7 +20,7 @@ const TextStyle mainText = TextStyle(
     color: Colors.white, fontSize: 30
 );
 
-const TextStyle SubMainText = TextStyle(color: Colors.grey,fontSize: 20);
+const TextStyle SubMainText = TextStyle(color: Colors.white,fontSize: 20);
 
 const TextStyle proText = TextStyle(color: Colors.white,fontSize: 18);
 const TextStyle pro1Text = TextStyle(color: Colors.white,fontSize: 28);
